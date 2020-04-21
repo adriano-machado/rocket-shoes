@@ -14,7 +14,7 @@ import * as CartActions from '../../store/modules/cart/actions';
 import { formatPrice } from '../../util/format';
 
 export default function Cart() {
-    const dispatch = useDispatch;
+    const dispatch = useDispatch();
 
     function increment(product) {
         dispatch(
