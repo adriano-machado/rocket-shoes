@@ -1,5 +1,6 @@
 import React from 'react';
 import { useSelector, useDispatch } from 'react-redux';
+import { Link } from 'react-router-dom';
 
 import {
     MdAddCircleOutline,
@@ -111,7 +112,10 @@ export default function Cart() {
                 </tbody>
             </ProductTable>
             <footer>
-                <button type="button">PROCEED TO CHECKOUT</button>
+                <Link to="/payment">
+                    <button type="button">PROCEED TO CHECKOUT</button>
+                </Link>
+
                 <Total>
                     <span>TOTAL</span>
                     <strong>{total}</strong>

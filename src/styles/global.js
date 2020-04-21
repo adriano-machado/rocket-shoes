@@ -16,7 +16,8 @@ export default createGlobalStyle`
 body {
 
 
-    background: linear-gradient(-45deg, rgba(113,89,193,1) 0%, rgba(54,54,102,1) 100%);    -webkit-font-smoothing:antialiased;
+    background: linear-gradient(-90deg, rgba(113,89,193,1) 0%, rgba(54,54,102,1) 100%);
+      -webkit-font-smoothing:antialiased;
 
 
     &::before {
@@ -29,7 +30,12 @@ body {
       background: url(${background}) no-repeat center -60px/101vw;
       z-index: -5;
 
+      @media (max-width: 1200px) {
+        background: url(${background}) no-repeat center top;
+      }
+
     }
+
 
 }
 

@@ -10,6 +10,7 @@
     "immer": "^6.0.2",
     "polished": "^3.4.4",
     "react": "^16.13.0",
+    "react-credit-cards": "^0.8.0",
     "react-dom": "^16.13.0",
     "react-icons": "^3.9.0",
     "react-redux": "^7.2.0",
