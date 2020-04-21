@@ -1,5 +1,15 @@
-import styled from 'styled-components';
+import styled, { keyframes, css } from 'styled-components';
+
 import { darken } from 'polished';
+
+const rotate = keyframes`
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg)
+    }
+`;
 
 export const ProductList = styled.ul`
     display: grid;
@@ -41,6 +51,8 @@ export const ProductList = styled.ul`
             display: flex;
             align-items: center;
             transition: background 0.2s;
+            height: 40px;
+            justify-content: center;
 
             &:hover {
                 background: ${darken(0.03, '#7159c1')};

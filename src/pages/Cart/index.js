@@ -1,12 +1,11 @@
-import React, { useSelector, useDispatch } from 'react';
+import React from 'react';
+import { useSelector, useDispatch } from 'react-redux';
 
 import {
     MdAddCircleOutline,
     MdRemoveCircleOutline,
     MdDelete,
 } from 'react-icons/md';
-import { connect } from 'react-redux';
-import { bindActionCreators } from 'redux';
 
 import { Container, ProductTable, Total } from './styles';
 import * as CartActions from '../../store/modules/cart/actions';

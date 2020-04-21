@@ -4,11 +4,13 @@ import api from '../../../services/api';
 // import history from '../../../services/history';
 
 import { addToCartSuccess, updateAmountSuccess } from './actions';
+import { setProductLoading } from '../products/actions';
 
 import { formatPrice } from '../../../util/format';
 
 function* addToCart({ id }) {
     // método para acessa informação do reducer
+    yield put(setProductLoading(id, true));
     const productExists = yield select(state =>
         state.cart.find(p => id === p.id)
     );
@@ -20,6 +22,8 @@ function* addToCart({ id }) {
 
     if (amount > stockAmount) {
         toast.error('Quantidade solicitada fora do estoque');
+        yield put(setProductLoading(id, false));
+
         return;
     }
     if (productExists) {
@@ -38,6 +42,8 @@ function* addToCart({ id }) {
 
         // history.push('/cart');
     }
+
+    yield put(setProductLoading(id, false));
 }
 
 function* updateAmount({ amount, id }) {
