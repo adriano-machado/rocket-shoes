@@ -41,9 +41,10 @@ export const Form = styled.form`
         padding: 0 15px;
         margin: 0 0 10px;
         width: 100%;
+        color: rgba(255, 255, 255, 0.7);
 
         &::placeholder {
-            color: rgba(255, 255, 255, 0.7);
+            color: rgba(255, 255, 255, 0.3);
         }
     }
 `;

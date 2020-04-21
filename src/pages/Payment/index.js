@@ -16,6 +16,7 @@ function Payment() {
     const [expiry, setExpiry] = useState('');
     const [cvc, setCvc] = useState('');
     const [focused, setFocused] = useState(null);
+    const [email, setEmail] = useState(null);
 
     function handleInputFocus({ target }) {
         if (target.id === 'securityCode') {
@@ -43,6 +44,8 @@ function Payment() {
             setCvc(target.value);
         } else if (target.id === 'cardholderName') {
             setName(target.value);
+        } else if (target.id === 'email') {
+            setEmail(target.value);
         }
     }
 
@@ -89,10 +92,16 @@ function Payment() {
                 <input
                     type="text"
                     id="securityCode"
-                    data-checkout="securityCode"
                     placeholder="CVC"
                     pattern="\d{3,4}"
                     required
+                    onChange={handleInputChange}
+                    onFocus={handleInputFocus}
+                />
+                <input
+                    type="email"
+                    id="email"
+                    placeholder="E-mail"
                     onChange={handleInputChange}
                     onFocus={handleInputFocus}
                 />
