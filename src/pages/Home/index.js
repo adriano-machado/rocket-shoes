@@ -50,7 +50,7 @@ export default function Home() {
                         type="button"
                         onClick={() => handleAddProduct(product.id)}
                     >
-                        {!product.loading ? (
+                        {product.loading ? (
                             <Loading> </Loading>
                         ) : (
                             <div>
