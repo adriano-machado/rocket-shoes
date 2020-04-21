@@ -80,7 +80,7 @@ function Payment() {
                 <input
                     type="tel"
                     name="expiry"
-                    placeholder="Expires at"
+                    placeholder="Card expiration"
                     pattern="\d\d/\d\d"
                     required
                     onChange={handleInputChange}
