@@ -1,15 +1,6 @@
-import styled, { keyframes, css } from 'styled-components';
+import styled, { keyframes } from 'styled-components';
 
 import { darken } from 'polished';
-
-const rotate = keyframes`
-    from {
-        transform:rotate(0deg);
-    }
-    to {
-        transform:rotate(360deg)
-    }
-`;
 
 export const ProductList = styled.ul`
     display: grid;
@@ -17,16 +8,28 @@ export const ProductList = styled.ul`
     grid-gap: 20px;
     list-style: none;
 
+    @media (max-width: 945px) {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    @media (max-width: 490px) {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
     li {
         display: flex;
         flex-direction: column;
         background: #fff;
         border-radius: 4px;
         padding: 20px;
-
+        &:hover img {
+            opacity: 0.9;
+        }
         img {
+            margin: auto;
+
             align-self: center;
             max-width: 250px;
+            transition: opacity 150ms ease-in-out;
         }
 
         > strong {

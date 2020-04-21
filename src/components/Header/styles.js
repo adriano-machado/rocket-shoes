@@ -6,31 +6,58 @@ export const Container = styled.header`
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 50px 0;
+    padding: 25px 0;
+
+    > a img {
+        width: 100%;
+        max-width: 275px;
+    }
 `;
 
 export const Cart = styled(Link)`
     display: flex;
     align-items: center;
     text-decoration: none;
+    position: relative;
     transition: opacity 0.2s;
 
     &:hover {
         opacity: 0.7;
     }
 
-    div {
+    & div {
         text-align: right;
         margin-right: 10px;
-
-        strong {
+        @media (max-width: 430px) {
+            display: none;
+        }
+        & strong {
             display: block;
             color: #fff;
         }
 
-        span {
+        & span {
             font-size: 12px;
             color: #999;
+        }
+    }
+
+    > span {
+        background: #7159c1;
+        color: #fff;
+        font-size: 11px;
+        line-height: 20px;
+        text-align: center;
+        height: 20px;
+        width: 20px;
+        border-radius: 50%;
+        position: absolute;
+        right: -2px;
+        top: -6px;
+        display: none;
+
+        @media (max-width: 430px) {
+            display: initial;
         }
     }
 `;

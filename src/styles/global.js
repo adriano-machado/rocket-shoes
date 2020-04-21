@@ -14,8 +14,23 @@ export default createGlobalStyle`
 }
 
 body {
-    background:#191920 url(${background}) no-repeat center top;
-    -webkit-font-smoothing:antialiased;
+
+
+    background: linear-gradient(-45deg, rgba(113,89,193,1) 0%, rgba(54,54,102,1) 100%);    -webkit-font-smoothing:antialiased;
+
+
+    &::before {
+      content: '';
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      position: absolute;
+      background: url(${background}) no-repeat center -60px/101vw;
+      z-index: -5;
+
+    }
+
 }
 
 body,input,button {

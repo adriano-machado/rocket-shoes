@@ -46,8 +46,8 @@ export default function Cart() {
                 <thead>
                     <tr>
                         <th />
-                        <th>PRODUTO</th>
-                        <th>QTD</th>
+                        <th>PRODUCT</th>
+                        <th>AMOUNT</th>
                         <th>SUBTOTAL</th>
                         <th />
                     </tr>
@@ -111,7 +111,7 @@ export default function Cart() {
                 </tbody>
             </ProductTable>
             <footer>
-                <button type="button">Finalizar pedido</button>
+                <button type="button">PROCEED TO CHECKOUT</button>
                 <Total>
                     <span>TOTAL</span>
                     <strong>{total}</strong>
