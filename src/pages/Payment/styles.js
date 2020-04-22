@@ -7,8 +7,12 @@ export const Form = styled.form`
     margin-top: 20px;
     padding: 30px;
     background: #202020;
-    border-radius: 4px;
+    border-radius: 8px;
     align-items: center;
+    min-width: 500px;
+    @media (max-width: 430px) {
+        min-width: 300px;
+    }
 
     button {
         background: #7159c1;
@@ -52,4 +56,6 @@ export const Form = styled.form`
 export const Container = styled.div`
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
 `;
