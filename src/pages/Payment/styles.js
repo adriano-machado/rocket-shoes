@@ -7,7 +7,7 @@ export const Form = styled.form`
     margin-top: 20px;
     padding: 30px;
     background: #202020;
-    border-radius: 8px;
+    border-radius: 4px;
     align-items: center;
     min-width: 500px;
     @media (max-width: 430px) {
