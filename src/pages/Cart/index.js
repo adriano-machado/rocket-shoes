@@ -60,8 +60,10 @@ export default function Cart() {
                                 <img src={product.image} alt={product.title} />
                             </td>
                             <td>
-                                <strong>{product.title}</strong>
-                                <span>{product.priceFormatted}</span>
+                                <div>
+                                    <strong>{product.title}</strong>
+                                    <span>{product.priceFormatted}</span>
+                                </div>
                             </td>
                             <td>
                                 <div>
