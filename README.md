@@ -15,7 +15,6 @@ This project was developed at the [RocketSeat GoStack Bootcamp](https://rocketse
 - [Redux](https://redux.js.org/)
 - [Redux-Saga](https://redux-saga.js.org/)
 - [Redux-Persist](https://github.com/rt2zz/redux-persist/)
-
 - [styled-components](https://www.styled-components.com/)
 - [Axios](https://github.com/axios/axios)
 - [Immer](https://github.com/immerjs/immer)
