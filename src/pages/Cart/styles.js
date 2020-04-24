@@ -71,7 +71,7 @@ export const ProductTable = styled.table`
         @media (max-width: 480px) {
             strong {
                 max-width: 85%;
-                margin-right: 0;
+                margin-right: 10px;
             }
             justify-content: center;
             align-items: center;
@@ -81,7 +81,7 @@ export const ProductTable = styled.table`
                 max-width: 15%;
                 color: #999;
                 font-size: 13px;
-                text-align: left;
+                text-align: right;
             }
         }
     }
