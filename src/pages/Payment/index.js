@@ -16,7 +16,7 @@ function Payment() {
     const [expiry, setExpiry] = useState('');
     const [cvc, setCvc] = useState('');
     const [focused, setFocused] = useState(null);
-    const [email, setEmail] = useState(null);
+    const [, setEmail] = useState(null);
 
     function handleInputFocus({ target }) {
         if (target.id === 'securityCode') {
