@@ -9,14 +9,10 @@
 
 This project was developed at the [RocketSeat GoStack Bootcamp](https://rocketseat.com.br/bootcamp) and improved by me, with the following technologies:
 
-- [NodeJS](https://nodejs.org)
-- [ReactJS](https://reactjs.org/)
-- [React Native](https://facebook.github.io/react-native/)
 - [Redux](https://redux.js.org/)
 - [Redux-Saga](https://redux-saga.js.org/)
 - [Redux-Persist](https://github.com/rt2zz/redux-persist/)
 - [styled-components](https://www.styled-components.com/)
-- [Axios](https://github.com/axios/axios)
 - [Immer](https://github.com/immerjs/immer)
 - [json-server](https://github.com/typicode/json-server)
 - [Reactotron](https://infinite.red/reactotron)
