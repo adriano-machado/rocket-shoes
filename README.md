@@ -37,7 +37,6 @@ $ cd rocket-shoes
 $ yarn install
 
 # Run the server
-$ yarn install
 $ yarn start
 
 ```
