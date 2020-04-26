@@ -1,4 +1,4 @@
-<!-- ![Demo mobile](https://github.com/adriano-machado/demo-assets/blob/master/rocketShoesDemo.gif)-->
+![Demo mobile](https://github.com/adriano-machado/demo-assets/blob/master/rocketShowsMobileView.gif)
 <br>
  <p align="center"> <a  href="#rocket-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
    <a  href="#information_source-how-to-use">How To Use</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -20,7 +20,7 @@ This project was developed at the [RocketSeat GoStack Bootcamp](https://rocketse
 - [react-credit-cards](https://github.com/amarofashion/react-credit-cards)
 - And another bunch of packages....
 
-## :information_source: How To Use 
+## :information_source: How To Use
 To clone and run this application, you'll need [Git](https://git-scm.com), [Node.js v10.16][nodejs] or higher + [Yarn v1.13][yarn] or higher installed on your computer.
 
 From your command line:
