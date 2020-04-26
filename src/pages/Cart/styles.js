@@ -92,9 +92,9 @@ export const ProductTable = styled.table`
         display: block;
     }
     span {
-        display: block;
-        margin-top: 5px;
-        font-size: 18px;
+        color: #999;
+        margin-left: 5px;
+        font-size: 14px;
         font-weight: bold;
     }
     div {
