@@ -1,7 +1,5 @@
-![Demo mobile](https://github.com/adriano-machado/demo-assets/blob/master/rocketShowsMobileView.gif)
-<p align="center" >
-
-<img src="https://github.com/adriano-machado/demo-assets/blob/master/rocketShowsMobileView.gif" alt="app web" > </p>
+<p align="center" width="100%" >
+<img src="https://github.com/adriano-machado/demo-assets/blob/master/rocketShowsMobileView.gif" alt="app mobile" > </p>
 <img src="https://github.com/adriano-machado/demo-assets/blob/master/rocketShoesDemo.gif" alt="app web" >
 <br>
  <p align="center"> <a  href="#rocket-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
