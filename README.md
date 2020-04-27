@@ -1,12 +1,10 @@
+<img src="https://github.com/adriano-machado/demo-assets/blob/master/rocketShoesDemo.gif" alt="app web" >
 <p align="center" width="100%" >
 <img src="https://github.com/adriano-machado/demo-assets/blob/master/rocketShowsMobileView.gif" alt="app mobile" > </p>
-<img src="https://github.com/adriano-machado/demo-assets/blob/master/rocketShoesDemo.gif" alt="app web" >
 <br>
  <p align="center"> <a  href="#rocket-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
    <a  href="#information_source-how-to-use">How To Use</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a  href="#memo-license">License</a> </p>
-
-
 ## :rocket: Technologies
 
 This project was developed at the [RocketSeat GoStack Bootcamp](https://rocketseat.com.br/bootcamp) and improved by me, with the following technologies:
