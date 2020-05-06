@@ -1,10 +1,10 @@
-![Demo mobile](https://github.com/adriano-machado/demo-assets/blob/master/rocketShowsMobileView.gif)
-<img src="https://github.com/adriano-machado/demo-assets/blob/master/rocketShoesDemo.gif" alt="app web" width="500" height="400">
+<img src="https://github.com/adriano-machado/demo-assets/blob/master/rocketShoesDemo.gif" alt="app web" >
+<p align="center" width="100%" >
+<img src="https://github.com/adriano-machado/demo-assets/blob/master/rocketShowsMobileView.gif" alt="app mobile" > </p>
 <br>
  <p align="center"> <a  href="#rocket-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
    <a  href="#information_source-how-to-use">How To Use</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a  href="#memo-license">License</a> </p>
-
 
 ## :rocket: Technologies
 
